@@ -1,5 +1,12 @@
 import java.util.*;
 
+
+// deterministic algorithm for finding min cut of a weighted, undirected graph 
+// works by iteratively merging the two most tightly connected vertices until only 2
+// vertices remain 
+// weight of last edge contracted is the weight of the minimum cut 
+
+
 public class StoerWagner
   {
     public static int minCut(int[][] graph)
